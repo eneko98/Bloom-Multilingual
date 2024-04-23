@@ -28,7 +28,7 @@ To test the trained model, the `multilingual_testing.py` script in the `Evaluati
 
 `[BOS] {lang_tag} {word} (POS: {pos}) <definition>`
 
-Here `{lang_tag}` is the language tag, `{word}` is the word to define, and `{pos}` is the part of speech. The model generates the definition following the `definition` tag.
+Here `{lang_tag}` is the language tag, `{word}` is the word to define, and `{pos}` is the part of speech. The model generates the definition following the `<definition>` tag.
 
 ## Setup and Usage
 
