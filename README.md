@@ -25,10 +25,10 @@ The model utilizes the `bigscience/bloom-7b1` transformer architecture from Hugg
 ## Model Evaluation
 
 To test the trained model, the `multilingual_testing.py` script in the `Evaluation` folder can be used. The script prompts the model to generate definitions based on input prompts in the following format:
-```
-[BOS] {lang_tag} {word} (POS: {pos}) <definition>
-```
-Here {lang_tag} is the language tag, {word} is the word to define, and {pos} is the part of speech. The model generates the definition following the `definition` tag.
+
+`[BOS] {lang_tag} {word} (POS: {pos}) <definition>`
+
+Here `{lang_tag}` is the language tag, `{word}` is the word to define, and `{pos}` is the part of speech. The model generates the definition following the `definition` tag.
 
 ## Setup and Usage
 
