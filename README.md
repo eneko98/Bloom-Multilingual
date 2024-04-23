@@ -49,5 +49,9 @@ pip install -r requirements.txt
 ```
 python multilingual_training.py
 ```
-4. **Contributing:**
+4. **Evaluate the Model:**
+```
+python Evaluation/multilingual_testing.py
+```
+5. **Contributing:**
 Contributions to this project are welcome. Please fork the repository and submit a pull request to propose changes.
